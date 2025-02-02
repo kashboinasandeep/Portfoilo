@@ -1,0 +1,30 @@
+/* Decrease the size of skill cards */
+.skill-card {
+    width: 80%; /* Make the cards smaller */
+    margin: 0 auto; /* Center them */
+  }
+  
+  /* Customize carousel control button color */
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #007bff; /* Change the color to blue */
+    border-radius: 50%;
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    color: #007bff; /* Adjust the color of the arrows */
+  }
+  
+
+  /* Remove hover effect for all cards in the projects section */
+#projects .card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  /* Remove hover effect for all text inside the cards */
+  #projects .card-body h4:hover,
+  #projects .card-body p:hover {
+    color: inherit;  /* Prevent text color change on hover */
+    text-decoration: none;  /* Remove underline or other text effects */
+  }
+  
